@@ -14,8 +14,8 @@ Rawdapos est une application Spring Boot qui fournit des fonctionnalités d'auth
 
 1. Clonez le dépôt :
     ```sh
-    git clone https://github.com/yourusername/rawdapos.git
-    cd rawdapos
+    git clone git@github.com:Rawdapos/rawda_Pos_backend.git
+    cd rawda_Pos_backend
     ```
 
 2. Construisez le projet :
