@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.rawdapos</groupId>
 	<artifactId>rawdapos</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>rawdapos</name>
 	<description>application de gestion stock rawdapos</description>
 	<url/>
