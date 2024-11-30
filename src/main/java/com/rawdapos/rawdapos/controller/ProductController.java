@@ -54,8 +54,7 @@ public class ProductController {
     @GetMapping("/list")
     public ResponseEntity<Object> list(Authentication authentication) {
         if (authentication == null) {
-            System.err.println(authentication.getAuthorities());
-            return ResponseEntity.badRequest().body("Unauthenticated");
+            return ResponseEntity.badRequest().body("Unauthenticfated");
         }
         var response = new HashMap<String, Object>();
         var products = productRepository.findAll();
